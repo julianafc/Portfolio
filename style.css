@@ -4,6 +4,10 @@ body{
     font-family: "Inter";
 }
 
+::selection{
+    background-color: #748CAB;
+}
+
 nav{
     padding: 20px;
     display: flex;
@@ -48,7 +52,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin: 90px 0;
 }
 
 #resumo{
@@ -68,7 +72,7 @@ nav{
 }
 
 #div-foto{
-    margin: 0;
+    margin: 0 0 0 20px;
     padding: 0;
     width: 30%;
 }
@@ -77,4 +81,37 @@ nav{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    border: solid 3px #3E5C76;
+}
+
+#titulo-projetos{
+    text-align: center;
+    color: #0D1321;
+}
+
+#projetos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#subir {
+    width: 20px;
+    height: 20px;
+    background-color: #1D2D44;
+    padding: 15px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
 }

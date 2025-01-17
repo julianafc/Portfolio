@@ -5,7 +5,7 @@ body{
 }
 
 ::selection{
-    background-color: #748CAB;
+    background-color: #A5B3C5;
 }
 
 nav{
@@ -52,7 +52,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 90px 0;
+    margin: 100px 0;
 }
 
 #resumo{
@@ -91,11 +91,11 @@ nav{
 
 #projetos{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* autofit pra responsividade */
     grid-template-rows: auto auto;
     column-gap: 20px;
     row-gap: 20px;
-    margin: 0 30px;
+    margin: 0 30px 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -104,9 +104,11 @@ nav{
 .quad-projetos{
     display: flex;
     height: 300px;
+    padding: 10px;
     border: 1px solid red;
     justify-content:space-around;
     align-items: center;
+    background-color: #0D1321;
 }
 
 .foto-projetos{
@@ -116,9 +118,18 @@ nav{
     border: solid 1px red;
 }
 
-.infp-projetos{
+.info-projetos{
+    color: white;
     border: solid 1px red;
     width: 50%;
+}
+
+.info-projetos a {
+    text-decoration:none ;
+    color: black;
+    background-color: #F0EBD8;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 #subir {

@@ -1,28 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
 nav{
-    width: 100%;
-    margin-top: 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center ;
+    vertical-align: middle;
     height: auto;
-    border: solid red 1px;
+    background-color: #0D1321;
 }
 
 #links-internos{
-    width: 40%;
-    border: solid red 1px;
+    width: 50%;
     text-align:start;
 }
 
 #links-externos{
     width: 40%;
-    border: solid red 1px;
     text-align: end;
 }
 
 .nav-int{
     text-decoration: none;
-    color: black;
-    border: solid blue 1px;
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-int:hover{
+    text-decoration: underline 2px #748CAB;
+    text-underline-offset: 5px;
 }
 
 .nav-ext{
@@ -34,28 +44,37 @@ nav{
     width: 38px;
 }
 
-main {
+#meio {
     display: flex;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 #resumo{
-    margin: 0;
-    padding: 0;
-    border: solid 1px red;
+    width: 30%;
+    color: #1D2D44;
 }
 
 #resumo h1{
     margin: 0;
     padding: 0;
+    display: inline;
+    font-weight: 400;
+}
+
+#nome {
+    color: #0D1321;
 }
 
 #div-foto{
     margin: 0;
     padding: 0;
-    border: solid 1px red;
+    width: 30%;
 }
 
 #foto{
-    width: 30%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }

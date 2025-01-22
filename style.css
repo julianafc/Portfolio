@@ -161,3 +161,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 898px) and (min-width:300px) {
+    
+}

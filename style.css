@@ -162,6 +162,63 @@ nav{
     justify-content: center;
 }
 
+#nav-hidden{
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+  }
+
+  #botoes-hidden{
+    display: none;
+    margin: 0;
+    border-top: 1px solid white;
+    padding: 50px;
+    background-color: black;
+}
+
+.botoes-hidden-s{
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 @media (max-width: 898px) and (min-width:300px) {
+
+    .menu-toggle {
+        display: block;
+      }
+
+      #nav-hidden{
+        display: flex;
+      }
+
+      #barrinhas{
+        margin-left: 15px;
+      }
+
+      #links-internos {
+        display: none; 
+    }
     
+    #botoes-hidden.show {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
 }

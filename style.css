@@ -46,6 +46,14 @@ nav{
     color: black;
 }
 
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2); 
+}
+
 .logos{
     width: 38px;
 }
@@ -133,8 +141,8 @@ nav{
 
 .info-projetos a {
     text-decoration:none ;
-    color: black;
-    background-color: #F0EBD8;
+    color: #0D1321;
+    background-color: white;
     padding: 5px;
     border-radius: 10px;
 }

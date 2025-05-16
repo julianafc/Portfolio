@@ -60,7 +60,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    margin: 150px 0;
 }
 
 #resumo{
@@ -150,7 +150,7 @@ nav{
     display: flex;
     width: 60%;
     text-align: left;
-    margin: auto auto 100px auto;
+    margin: auto auto 215px auto;
     padding: auto;
 }
 

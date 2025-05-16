@@ -39,8 +39,6 @@ nav{
     text-underline-offset: 5px;
 }
 
-
-
 .nav-ext{
     text-decoration: none;
     color: black;
@@ -115,7 +113,7 @@ nav{
     display: flex;
     height: 300px;
     padding: 10px;
-    border: 1px solid red;
+    border: solid 2px #3E5C76;
     justify-content:space-around;
     align-items: center;
     background-color: #0D1321;
@@ -124,18 +122,19 @@ nav{
 .foto-projetos{
     width: 50%;
     height: 280px;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .fotos-proj{
     object-fit: cover;
     width: 300px;
     height: 280px;
+    border: solid 2px #3E5C76;
 }
 
 .info-projetos{
     color: white;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 50%;
 }
 

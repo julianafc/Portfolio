@@ -145,6 +145,11 @@ nav{
     border-radius: 10px;
 }
 
+.info-projetos a:hover{
+    font-size: large;
+    transition: ease 0.2s;
+}
+
 #sobre-mim{
     display: flex;
     width: 60%;

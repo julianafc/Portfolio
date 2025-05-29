@@ -169,15 +169,15 @@
                 </div>
 
                 <div class="cta-quad2">
-                    <form action="https:api.web3forms.com/submit" method="post">
+                    <form action="https:api.web3forms.com/submit" method="post" class="form">
 
                         <input type="hidden" name="access_key" value="b789777c-0437-4b50-9088-d1c2e296a08c" />
 
                         <input type="hidden" name="from_name" value="E-mail do Portfólio">
 
-                        <input type="text" name="name" placeholder="Digite o seu nome" required />
-                        <input type="email" name="email" placeholder="Digite o seu e-mail" required />
-                        <textarea type="message" name="message" cols="30" rows="10" placeholder="Digite a sua mensagem" required></textarea>
+                        <input type="text" name="name" placeholder="Digite o seu nome" required oninvalid="this.setCustomValidity('Campo obrigatório!')" />
+                        <input type="email" name="email" placeholder="Digite o seu e-mail" required oninvalid="this.setCustomValidity('Campo obrigatório!')" />
+                        <textarea type="message" name="message" cols="50" rows="10" placeholder="Digite a sua mensagem" required oninvalid="this.setCustomValidity('Campo obrigatório!')" ></textarea>
 
                         <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html" />
                         

@@ -239,14 +239,32 @@ nav{
     margin: auto;
 }
 
-.cta-quad1, .cta-quad2{
-    padding: 20px;
+.cta-icons{
+    margin: 20px 0;
 }
 
-.cta-icons{
-    text-align: center;
-    justify-content: center;
-    margin: 20px 0;
+.cta-icons-inline a, .cta-icons-inline p{
+    display: flex;
+    padding-left: 5px;
+}
+
+.cta-icons-inline a{
+    min-width: 400px ;
+}
+
+.cta-icons-inline p{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.cta-icons-inline{
+    border: #1D2D44 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cta-quad1, .cta-quad2{
+    padding: 20px;
 }
 
 .cta-quad1 a{

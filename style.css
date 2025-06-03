@@ -226,17 +226,13 @@ nav{
     gap: 20px;
 }
 
-.cta-texto{
-
-}
-
 .cta h2{
     font-size: 36px;
 }
 
 .cta p{
     text-align: justify;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .cta-icons{
@@ -250,6 +246,11 @@ nav{
 
 .cta-icons-inline a{
     min-width: 400px ;
+    margin: auto;
+}
+
+.cta-icons-inline a:hover{
+    color: #3E5C76;
 }
 
 .cta-icons-inline p{
@@ -258,7 +259,7 @@ nav{
 }
 
 .cta-icons-inline{
-    border: #1D2D44 1px solid;
+    border: #0D1321 1px solid;
     border-radius: 10px;
     margin: 5px;
 }

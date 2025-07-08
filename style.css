@@ -251,13 +251,12 @@ nav {
 }
 
 .cta-icons-inline a {
-    min-width: 400px;
     margin: auto;
 }
 
-.cta-icons-inline a:hover {
-    /* color: #3E5C76; */
-}
+/* .cta-icons-inline a:hover {
+    transform: scale(1.2);
+} */
 
 .cta-icons-inline p {
     font-weight: bold;
@@ -284,10 +283,6 @@ nav {
 .cta-quad1,
 .cta-quad2 {
     padding: 20px;
-}
-
-.cta-quad1 a {
-    text-decoration: none;
 }
 
 .cta-botao-curriculo:hover {
@@ -377,5 +372,69 @@ nav {
     #quad-projetos {
         flex-direction: column;
         height: 1700;
+    }
+
+    #sobre-mim {
+        margin: auto auto 70px auto;
+    }
+
+    /* .contato{
+        margin-top: auto;
+    } */
+
+    .cta {
+        display: block;
+    }
+
+    .cta-texto p {
+        margin: 0;
+    }
+
+    .cta-quad1,
+    #titulo-contato {
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+    .cta-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+
+    .cta-icons-inline {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 5px;
+        /* margin: 10px auto; */
+        /* border: solid 1px blue; */
+    }
+
+    .cta-icons-inline a {
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        /* border: solid 1px red; */
+    }
+
+    .cta-icons-inline svg {
+        display: block;
+        margin: 0;
+    }
+
+    .cta-texto-h2,
+    .cta-icons-inline p {
+        display: none;
+    }
+
+    .rodape {
+        margin-top: 50px;
     }
 }

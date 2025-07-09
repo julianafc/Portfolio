@@ -371,7 +371,16 @@ nav {
         text-align: center;
     }
 
-    .resumo {}
+    #meio {
+        flex-direction: column;
+        margin: 50px auto;
+        gap: 15px;
+    }
+
+    #resumo {
+        width: 80%;
+        text-align: center;
+    }
 
     #quad-projetos {
         flex-direction: column;

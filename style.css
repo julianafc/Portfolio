@@ -1,6 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Inter";
 }
 
@@ -78,10 +79,6 @@ nav {
     font-weight: 400;
 }
 
-.resumo-h1 {
-    display: inline;
-}
-
 #nome {
     color: #0D1321;
     display: inline;
@@ -150,11 +147,11 @@ nav {
     background-color: white;
     padding: 5px;
     border-radius: 10px;
+    transition: all 0.3s;
 }
 
 .info-projetos a:hover {
-    font-size: large;
-    transition: ease 0.2s;
+    transform: translateY(2px);
 }
 
 #sobre-mim {
@@ -170,8 +167,8 @@ nav {
 }
 
 #subir {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     background-color: #1D2D44;
     padding: 15px;
     border-radius: 30px;
@@ -253,11 +250,12 @@ nav {
 
 .cta-icons-inline a {
     margin: auto;
+    transition: all 0.3s;
 }
 
-/* .cta-icons-inline a:hover {
-    transform: scale(1.2);
-} */
+.cta-icons-inline a:hover {
+    transform: translateY(-2px);
+}
 
 .cta-icons-inline p {
     font-weight: bold;
@@ -269,10 +267,6 @@ nav {
     border: #0D1321 1px solid;
     border-radius: 10px;
     margin: 5px;
-}
-
-.cta-icons-inline:hover {
-    border: #0D1321 0.1rem solid;
 }
 
 .cta-icons-inline svg {
@@ -328,10 +322,11 @@ nav {
     border-radius: 10px;
     font-family: "Inter";
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .form button:hover {
-    transform: scale(1.05);
+    transform: translateY(-2px);
 }
 
 .rodape {
@@ -352,7 +347,6 @@ nav {
 
     #nav-hidden {
         display: flex;
-        justify-content: space-around;
     }
 
     #links-internos {
@@ -364,7 +358,6 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        text-align: center;
         margin: 0;
         max-height: 10px;
     }
@@ -384,7 +377,12 @@ nav {
 
     #resumo {
         width: 80%;
+        text-align: justify;
+    }
+
+    #resumo h1 {
         text-align: center;
+        border: red 1px solid;
     }
 
     #quad-projetos {
@@ -394,19 +392,19 @@ nav {
 
     #sobre-mim {
         width: 80%;
+        text-align: justify;
+        margin-bottom: 100px;
     }
-
-    /* .contato{
-        margin-top: auto;
-    } */
 
     .cta {
-        display: block;
-        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .cta-texto {
+    .cta-quad1 {
         width: 80%;
+        text-align: justify;
     }
 
     .cta-quad1,

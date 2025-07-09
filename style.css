@@ -9,9 +9,10 @@ body {
 }
 
 nav {
-    padding: 20px;
+    padding: 10px;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     vertical-align: middle;
     height: auto;
@@ -19,12 +20,10 @@ nav {
 }
 
 #links-internos {
-    width: 50%;
     text-align: start;
 }
 
 #links-externos {
-    width: 40%;
     text-align: end;
 }
 
@@ -353,10 +352,7 @@ nav {
 
     #nav-hidden {
         display: flex;
-    }
-
-    #barrinhas {
-        margin-left: 15px;
+        justify-content: space-around;
     }
 
     #links-internos {
@@ -369,6 +365,15 @@ nav {
         justify-content: center;
         align-content: center;
         text-align: center;
+        margin: 0;
+        max-height: 10px;
+    }
+
+    #botoes-hidden.show a {
+        font-size: 16px;
+        display: inline-block;
+        width: fit-content;
+        box-sizing: border-box;
     }
 
     #meio {
@@ -388,7 +393,7 @@ nav {
     }
 
     #sobre-mim {
-        margin: auto auto 70px auto;
+        width: 80%;
     }
 
     /* .contato{
@@ -401,7 +406,7 @@ nav {
     }
 
     .cta-texto {
-        padding: auto auto 70px auto;
+        width: 80%;
     }
 
     .cta-quad1,
